@@ -1,0 +1,19 @@
+//
+//  PrefixHeader.pch
+//  很好看的瀑布流展示效果
+//
+//  Created by 华美赛佳 on 2017/3/7.
+//  Copyright © 2017年 JonesCxy. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define CxyCollectionElementKindHeader @"CxyCollectionElementKindHeader"
+#define CxyCollectionElementKindMoreLoader @"CxyCollectionElementKindMoreLoader"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */

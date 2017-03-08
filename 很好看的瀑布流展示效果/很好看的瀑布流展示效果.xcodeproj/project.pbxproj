@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30EF9461E6FA15900FE7817 /* Header.xib in Resources */ = {isa = PBXBuildFile; fileRef = D30EF9451E6FA15900FE7817 /* Header.xib */; };
+		D3DB904A1E6E8E9E00A22017 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB90491E6E8E9E00A22017 /* main.m */; };
+		D3DB904D1E6E8E9E00A22017 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB904C1E6E8E9E00A22017 /* AppDelegate.m */; };
+		D3DB90501E6E8E9E00A22017 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB904F1E6E8E9E00A22017 /* ViewController.m */; };
+		D3DB90531E6E8E9E00A22017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB90511E6E8E9E00A22017 /* Main.storyboard */; };
+		D3DB90581E6E8E9E00A22017 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3DB90561E6E8E9E00A22017 /* LaunchScreen.storyboard */; };
+		D3DB90631E6E8E9E00A22017 /* ___________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB90621E6E8E9E00A22017 /* ___________Tests.m */; };
+		D3DB906E1E6E8E9E00A22017 /* ___________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB906D1E6E8E9E00A22017 /* ___________UITests.m */; };
+		D3DB907C1E6E8EFD00A22017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DB907B1E6E8EFD00A22017 /* Images.xcassets */; };
+		D3DB90801E6E927000A22017 /* CxyCollectionViewParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB907F1E6E927000A22017 /* CxyCollectionViewParallaxCell.m */; };
+		D3DB90831E6E994600A22017 /* CxyCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB90821E6E994600A22017 /* CxyCollectionView.m */; };
+		D3DB90861E6EA39E00A22017 /* CxyCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB90851E6EA39E00A22017 /* CxyCollectionViewLayout.m */; };
+		D3DB908A1E6EA93800A22017 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB90891E6EA93800A22017 /* GridCell.m */; };
+		D3DB90901E6EADB100A22017 /* ParallaxCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB908F1E6EADB100A22017 /* ParallaxCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DB905F1E6E8E9E00A22017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DB903D1E6E8E9E00A22017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DB90441E6E8E9E00A22017;
+			remoteInfo = "很好看的瀑布流展示效果";
+		};
+		D3DB906A1E6E8E9E00A22017 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DB903D1E6E8E9E00A22017 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DB90441E6E8E9E00A22017;
+			remoteInfo = "很好看的瀑布流展示效果";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D30EF9451E6FA15900FE7817 /* Header.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Header.xib; sourceTree = "<group>"; };
+		D3DB90451E6E8E9E00A22017 /* 很好看的瀑布流展示效果.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "很好看的瀑布流展示效果.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB90491E6E8E9E00A22017 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3DB904B1E6E8E9E00A22017 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3DB904C1E6E8E9E00A22017 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3DB904E1E6E8E9E00A22017 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3DB904F1E6E8E9E00A22017 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3DB90521E6E8E9E00A22017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3DB90571E6E8E9E00A22017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3DB90591E6E8E9E00A22017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB905E1E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "很好看的瀑布流展示效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB90621E6E8E9E00A22017 /* ___________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________Tests.m"; sourceTree = "<group>"; };
+		D3DB90641E6E8E9E00A22017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB90691E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "很好看的瀑布流展示效果UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DB906D1E6E8E9E00A22017 /* ___________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___________UITests.m"; sourceTree = "<group>"; };
+		D3DB906F1E6E8E9E00A22017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3DB907B1E6E8EFD00A22017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3DB907E1E6E927000A22017 /* CxyCollectionViewParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CxyCollectionViewParallaxCell.h; sourceTree = "<group>"; };
+		D3DB907F1E6E927000A22017 /* CxyCollectionViewParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CxyCollectionViewParallaxCell.m; sourceTree = "<group>"; };
+		D3DB90811E6E994600A22017 /* CxyCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CxyCollectionView.h; sourceTree = "<group>"; };
+		D3DB90821E6E994600A22017 /* CxyCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CxyCollectionView.m; sourceTree = "<group>"; };
+		D3DB90841E6EA39E00A22017 /* CxyCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CxyCollectionViewLayout.h; sourceTree = "<group>"; };
+		D3DB90851E6EA39E00A22017 /* CxyCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CxyCollectionViewLayout.m; sourceTree = "<group>"; };
+		D3DB90881E6EA93800A22017 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		D3DB90891E6EA93800A22017 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+		D3DB908E1E6EADB100A22017 /* ParallaxCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParallaxCell.h; sourceTree = "<group>"; };
+		D3DB908F1E6EADB100A22017 /* ParallaxCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParallaxCell.m; sourceTree = "<group>"; };
+		D3DB90911E6EBAC100A22017 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DB90421E6E8E9E00A22017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB905B1E6E8E9E00A22017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB90661E6E8E9E00A22017 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DB903C1E6E8E9E00A22017 = {
+			isa = PBXGroup;
+			children = (
+				D3DB90471E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */,
+				D3DB90611E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests */,
+				D3DB906C1E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests */,
+				D3DB90461E6E8E9E00A22017 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DB90461E6E8E9E00A22017 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB90451E6E8E9E00A22017 /* 很好看的瀑布流展示效果.app */,
+				D3DB905E1E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests.xctest */,
+				D3DB90691E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DB90471E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB90871E6EA92000A22017 /* CxyCollectionCell */,
+				D3DB907D1E6E920800A22017 /* CxyCollectionView */,
+				D3DB907B1E6E8EFD00A22017 /* Images.xcassets */,
+				D3DB904B1E6E8E9E00A22017 /* AppDelegate.h */,
+				D3DB904C1E6E8E9E00A22017 /* AppDelegate.m */,
+				D3DB904E1E6E8E9E00A22017 /* ViewController.h */,
+				D3DB904F1E6E8E9E00A22017 /* ViewController.m */,
+				D3DB90511E6E8E9E00A22017 /* Main.storyboard */,
+				D3DB90561E6E8E9E00A22017 /* LaunchScreen.storyboard */,
+				D3DB90591E6E8E9E00A22017 /* Info.plist */,
+				D3DB90481E6E8E9E00A22017 /* Supporting Files */,
+				D3DB90911E6EBAC100A22017 /* PrefixHeader.pch */,
+				D30EF9451E6FA15900FE7817 /* Header.xib */,
+			);
+			path = "很好看的瀑布流展示效果";
+			sourceTree = "<group>";
+		};
+		D3DB90481E6E8E9E00A22017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB90491E6E8E9E00A22017 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3DB90611E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB90621E6E8E9E00A22017 /* ___________Tests.m */,
+				D3DB90641E6E8E9E00A22017 /* Info.plist */,
+			);
+			path = "很好看的瀑布流展示效果Tests";
+			sourceTree = "<group>";
+		};
+		D3DB906C1E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB906D1E6E8E9E00A22017 /* ___________UITests.m */,
+				D3DB906F1E6E8E9E00A22017 /* Info.plist */,
+			);
+			path = "很好看的瀑布流展示效果UITests";
+			sourceTree = "<group>";
+		};
+		D3DB907D1E6E920800A22017 /* CxyCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB907E1E6E927000A22017 /* CxyCollectionViewParallaxCell.h */,
+				D3DB907F1E6E927000A22017 /* CxyCollectionViewParallaxCell.m */,
+				D3DB90811E6E994600A22017 /* CxyCollectionView.h */,
+				D3DB90821E6E994600A22017 /* CxyCollectionView.m */,
+				D3DB90841E6EA39E00A22017 /* CxyCollectionViewLayout.h */,
+				D3DB90851E6EA39E00A22017 /* CxyCollectionViewLayout.m */,
+			);
+			path = CxyCollectionView;
+			sourceTree = "<group>";
+		};
+		D3DB90871E6EA92000A22017 /* CxyCollectionCell */ = {
+			isa = PBXGroup;
+			children = (
+				D3DB90881E6EA93800A22017 /* GridCell.h */,
+				D3DB90891E6EA93800A22017 /* GridCell.m */,
+				D3DB908E1E6EADB100A22017 /* ParallaxCell.h */,
+				D3DB908F1E6EADB100A22017 /* ParallaxCell.m */,
+			);
+			path = CxyCollectionCell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DB90441E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB90721E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果" */;
+			buildPhases = (
+				D3DB90411E6E8E9E00A22017 /* Sources */,
+				D3DB90421E6E8E9E00A22017 /* Frameworks */,
+				D3DB90431E6E8E9E00A22017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "很好看的瀑布流展示效果";
+			productName = "很好看的瀑布流展示效果";
+			productReference = D3DB90451E6E8E9E00A22017 /* 很好看的瀑布流展示效果.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DB905D1E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB90751E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果Tests" */;
+			buildPhases = (
+				D3DB905A1E6E8E9E00A22017 /* Sources */,
+				D3DB905B1E6E8E9E00A22017 /* Frameworks */,
+				D3DB905C1E6E8E9E00A22017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DB90601E6E8E9E00A22017 /* PBXTargetDependency */,
+			);
+			name = "很好看的瀑布流展示效果Tests";
+			productName = "很好看的瀑布流展示效果Tests";
+			productReference = D3DB905E1E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DB90681E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DB90781E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果UITests" */;
+			buildPhases = (
+				D3DB90651E6E8E9E00A22017 /* Sources */,
+				D3DB90661E6E8E9E00A22017 /* Frameworks */,
+				D3DB90671E6E8E9E00A22017 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DB906B1E6E8E9E00A22017 /* PBXTargetDependency */,
+			);
+			name = "很好看的瀑布流展示效果UITests";
+			productName = "很好看的瀑布流展示效果UITests";
+			productReference = D3DB90691E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DB903D1E6E8E9E00A22017 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JonesCxy;
+				TargetAttributes = {
+					D3DB90441E6E8E9E00A22017 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KKKGADAAP;
+						ProvisioningStyle = Automatic;
+					};
+					D3DB905D1E6E8E9E00A22017 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KKKGADAAP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3DB90441E6E8E9E00A22017;
+					};
+					D3DB90681E6E8E9E00A22017 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9KKKGADAAP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D3DB90441E6E8E9E00A22017;
+					};
+				};
+			};
+			buildConfigurationList = D3DB90401E6E8E9E00A22017 /* Build configuration list for PBXProject "很好看的瀑布流展示效果" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DB903C1E6E8E9E00A22017;
+			productRefGroup = D3DB90461E6E8E9E00A22017 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DB90441E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */,
+				D3DB905D1E6E8E9E00A22017 /* 很好看的瀑布流展示效果Tests */,
+				D3DB90681E6E8E9E00A22017 /* 很好看的瀑布流展示效果UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DB90431E6E8E9E00A22017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30EF9461E6FA15900FE7817 /* Header.xib in Resources */,
+				D3DB907C1E6E8EFD00A22017 /* Images.xcassets in Resources */,
+				D3DB90581E6E8E9E00A22017 /* LaunchScreen.storyboard in Resources */,
+				D3DB90531E6E8E9E00A22017 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB905C1E6E8E9E00A22017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB90671E6E8E9E00A22017 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DB90411E6E8E9E00A22017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB90501E6E8E9E00A22017 /* ViewController.m in Sources */,
+				D3DB90861E6EA39E00A22017 /* CxyCollectionViewLayout.m in Sources */,
+				D3DB90831E6E994600A22017 /* CxyCollectionView.m in Sources */,
+				D3DB904D1E6E8E9E00A22017 /* AppDelegate.m in Sources */,
+				D3DB908A1E6EA93800A22017 /* GridCell.m in Sources */,
+				D3DB90801E6E927000A22017 /* CxyCollectionViewParallaxCell.m in Sources */,
+				D3DB90901E6EADB100A22017 /* ParallaxCell.m in Sources */,
+				D3DB904A1E6E8E9E00A22017 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB905A1E6E8E9E00A22017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB90631E6E8E9E00A22017 /* ___________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DB90651E6E8E9E00A22017 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DB906E1E6E8E9E00A22017 /* ___________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DB90601E6E8E9E00A22017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DB90441E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */;
+			targetProxy = D3DB905F1E6E8E9E00A22017 /* PBXContainerItemProxy */;
+		};
+		D3DB906B1E6E8E9E00A22017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DB90441E6E8E9E00A22017 /* 很好看的瀑布流展示效果 */;
+			targetProxy = D3DB906A1E6E8E9E00A22017 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3DB90511E6E8E9E00A22017 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DB90521E6E8E9E00A22017 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3DB90561E6E8E9E00A22017 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3DB90571E6E8E9E00A22017 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3DB90701E6E8E9E00A22017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3DB90711E6E8E9E00A22017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3DB90731E6E8E9E00A22017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/很好看的瀑布流展示效果/PrefixHeader.pch";
+				INFOPLIST_FILE = "很好看的瀑布流展示效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3DB90741E6E8E9E00A22017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/很好看的瀑布流展示效果/PrefixHeader.pch";
+				INFOPLIST_FILE = "很好看的瀑布流展示效果/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3DB90761E6E8E9E00A22017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				INFOPLIST_FILE = "很好看的瀑布流展示效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/很好看的瀑布流展示效果.app/很好看的瀑布流展示效果";
+			};
+			name = Debug;
+		};
+		D3DB90771E6E8E9E00A22017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				INFOPLIST_FILE = "很好看的瀑布流展示效果Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/很好看的瀑布流展示效果.app/很好看的瀑布流展示效果";
+			};
+			name = Release;
+		};
+		D3DB90791E6E8E9E00A22017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				INFOPLIST_FILE = "很好看的瀑布流展示效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "很好看的瀑布流展示效果";
+			};
+			name = Debug;
+		};
+		D3DB907A1E6E8E9E00A22017 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 9KKKGADAAP;
+				INFOPLIST_FILE = "很好看的瀑布流展示效果UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huameihealth.-----------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "很好看的瀑布流展示效果";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DB90401E6E8E9E00A22017 /* Build configuration list for PBXProject "很好看的瀑布流展示效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB90701E6E8E9E00A22017 /* Debug */,
+				D3DB90711E6E8E9E00A22017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DB90721E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB90731E6E8E9E00A22017 /* Debug */,
+				D3DB90741E6E8E9E00A22017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DB90751E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB90761E6E8E9E00A22017 /* Debug */,
+				D3DB90771E6E8E9E00A22017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DB90781E6E8E9E00A22017 /* Build configuration list for PBXNativeTarget "很好看的瀑布流展示效果UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DB90791E6E8E9E00A22017 /* Debug */,
+				D3DB907A1E6E8E9E00A22017 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3DB903D1E6E8E9E00A22017 /* Project object */;
+}
